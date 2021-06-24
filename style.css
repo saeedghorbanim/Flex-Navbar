@@ -1,0 +1,48 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0px
+}
+
+.nav-title {
+
+    margin-left: 20px;
+
+}
+
+.nav-links {
+
+    display: flex;
+    list-style-type: none;
+    justify-content: space-evenly;
+    gap: 10px;
+    
+    
+}
+
+.nav {
+    color: white;
+    background-color: grey;
+    display: flex;
+    height: 50px;
+    width: 1200px;
+    margin-left: 66px;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.btn {
+
+    background-color: aqua;
+    color: white;
+    margin-right: 20px;
+    box-shadow: 1px 1px black;
+    
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;  
+    
+}
